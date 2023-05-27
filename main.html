@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCook</title>
+    <link rel="stylesheet" href="style.min.css">
+</head>
+<body>
+    <head>
+        <nav class="text b" style="justify-content: space-between;">
+            <div style="display: flex;">
+                <div>
+                    <img src="media/img/logotype.svg" style="margin-right: 80px;">
+                </div>
+                <a href="#">Кошки</a>
+                <a href="#">Собаки</a>
+                <a href="#">Котята и щенки</a>
+                <a href="#">Другие питомцы</a>
+            </div>
+            <div>
+                <a href="#"><img src="media/img/search.svg"></a>
+                <a href="#"><img src="media/img/cart.jpg"></a>
+                <a href="#"><img src="media/img/login.svg"></a>
+            </div>
+        </nav>
+    </head>
+    <section name="main">
+        <div class="text main">
+            <div class="maintext">
+                <h1>Вашему питомцу<br>Понравится PetCook</h1>
+                <p style="font-size: 24px; margin-bottom: 30px;">Качественное питание с комплексом пребиотиков<br>для здоровья ваших любимых питомцев</p>
+                <button>Смотреть каталог</button>
+            </div>
+        </div>
+        <img src="media/img/Group 193.png" align="right" style="position: absolute; margin-left: 50%; margin-top: -600px;">
+    </section>
+    <section name="categories">
+        <div>
+            <div class="text" style="display: flex; justify-content: space-between; margin-bottom: 50px;">
+                <div>
+                    <p style="font-size: 54px;" class="Exb">Большой выбор для всех питомцев</p>
+                </div>
+                <div style="display: flex;">
+                    <p class="b">Смотреть все товары</p>
+                    <a href="#"><img src="media/img/arrow.svg" style="margin-left: 30px;"></a>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="media/img/4.jpg" style="position: relative;">
+                    <div class="cardtext text b">Для кошек</div>
+                </div>
+                <div class="card">
+                    <img src="media/img/5.jpg" style="position: relative;">
+                    <div class="cardtext text b">Для собак</div>
+                </div>
+                <div class="card">
+                    <img src="media/img/6.jpg" style="position: relative;">
+                    <div class="cardtext text b">Для котят и щенков</div>
+                </div>
+                <div class="card">
+                    <img src="media/img/7.jpg" style="position: relative;">
+                    <div class="cardtext text b">Для других питомцев</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section name="info">
+        <div class="info">
+            <div class="text maintext">
+                <h1 style="font-size: 56px;">Более 30 лет в области<br>создания здорового рациона</h1>
+                <p style="font-size: 22px; margin-bottom: 50px; margin-top: 30px;">Компания PetCook основана в 1990 году в германии. Мы работаем<br>
+                над созданием не просто вкусного корма для домашних животных,<br>
+                а научно обоснованного здорового рациона, которое положительно<br>
+                влияет на состояние питомцев.</p>
+                <button style="margin-bottom: 80px;">Узнать больше</button>
+            </div>
+        </div>
+    </section>
+    <section name="cardgoods">
+        <div class="cardgoods">
+            <div name="1" class="line text">
+                <div name="img">
+                    <img src="media/img/9.jpg">
+                </div>
+                <div name="content" style="width: 100%;">
+                    <div name="title" class="line">
+                        <div>
+                            <h1 align="left" style="font-size: 44px;" class="Exb">Medium Adult</h1>
+                        </div>
+                        <div>
+                            <img src="media/img/star.svg"><img src="media/img/star.svg"><img src="media/img/star.svg"><img src="media/img/star.svg"><img src="media/img/star.svg">
+                            5.0 <a href="#" style="text-decoration: underline;">243 отзыва</a>
+                        </div>
+                    </div>
+                    <div name="text" style="margin-top: 10px;">
+                        Корм сухой полнорационный для взрослых собак средних размеров<br>
+                        (весом от 11 до 25 кг) в возрасте от 1 года до 7 лет
+                    </div>
+                    <div name="check" class="line" style="margin-top: 30px;">
+                        <div style="width: 40%;">
+                            <div>
+                                <p>Выберите объём:</p>
+                                <div class="line">
+                                    <div>
+                                        <input type="radio" name="3" id="3"><br>
+                                        2 кг
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="3" id="3" checked><br>
+                                        5 кг
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="3" id="3"><br>
+                                        10 кг
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="3" id="3"><br>
+                                        15 кг
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 45%;">
+                            <p>Выберите количество:</p>
+                            <div>
+                                <input type="button" value="-">
+                                <input type="text" value="1" disabled>
+                                <input type="button" value="+">
+                            </div>
+                        </div>
+                    </div>
+                    <div name="radio" class="line" style="margin-top: 30px;">
+                        <div class="line" style="border: 2px;">
+                            <div>
+                                <input type="radio" name="4" checked>
+                            </div>
+                            <div>
+                                <div class="line">
+                                    <div>
+                                        Разовая покупка
+                                    </div>
+                                    <div>
+                                        <span id="price1">2300</span> р
+                                    </div>
+                                </div>
+                                <div>
+                                    Доставка 1 раз  Доставка 250 р
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line" style="border: 2px;">
+                            <div>
+                                <input type="radio" name="4">
+                            </div>
+                            <div>
+                                <div class="line">
+                                    <div>
+                                        Регулярная доставка
+                                    </div>
+                                    <div>
+                                        <span id="price2">2200</span> р
+                                    </div>
+                                </div>
+                                <div>
+                                    Частота 2 недели  Бесплатная доставка
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div name="buttons" style="margin-top: 30px;">
+                        <button>Расчитать</button>
+                        <input type="text" value="2300" disabled style="width: 40%; height: 60px; font-size: 30px; color: black;">
+                        <button>Добавить в корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div name="2" class="line" style="width: 100%;">
+                <div name="img" style="width: 40%;">
+                    <img src="media/img/10.jpg" align="left">
+                    <img src="media/img/11.jpg">
+                </div>
+                <div name="content" class="text" style="width: 70%;">
+                    <div style="margin-bottom: 20px;">
+                        <a href="#" style="color: rgb(0, 102, 255); margin-right: 30px;">Описание</a>
+                        <a href="#" style="margin-right: 30px;">Ингридиенты</a>
+                        <a href="#">Отзывы</a>
+                    </div>
+                    <div>
+                        Сухой корм для собак в возрасте от 1 года до 7 лет и старше.<br><br>
+	                    <ul style="margin-left: 30px;">
+                            <li>Поддерживает иммунную систему</li>
+                            <li>Обладает высокой усвояемостью и способствует здоровью пищеварительной системы</li>
+                            <li>Способствует здоровью кожи и шерсти</li>
+                            <li>Обладает высокой вкусовой привлекательностью</li>
+                            <li>100% полнорационное и сбалансированное питание</li>
+                        </ul><br>
+                        Эксклюзивная формула корма PetCook, богатая высококачественным белком, способствует поддержанию оптимального пищеварения, которое позволяет собаке эффективно усваивать питательные вещества. Пребиотики обеспечивают работу пищеварительной системы.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section name="advantages">
+        <div class="text main">
+            <div style="margin-bottom: 100px; padding-top: 100px;">
+                <h1 style="font-size: 44px;" align="center">PetCook - это забота о здоровье вашего питомца</h1>
+            </div>
+            <div class="cards" style="padding-left: 15%; padding-right: 15%;">
+                <div>
+                    <div style="padding-left: 40%;">
+                        <img src="media/img/number1.svg">
+                    </div>
+                    <div class="numbertext">
+                        Забота о микробиоме<br>питомца
+                    </div>
+                </div>
+                <div>
+                    <div style="padding-left: 40%;">
+                        <img src="media/img/number2.svg">
+                    </div>
+                    <div class="numbertext">
+                        Потрясающий<br>деликатный вкус
+                    </div>
+                </div>
+                <div>
+                    <div style="padding-left: 40%;">
+                        <img src="media/img/number3.svg">
+                    </div>
+                    <div class="numbertext">
+                        Рекомендовано<br>ветеринарами
+                    </div>
+                </div>
+                <div>
+                    <div style="padding-left: 40%;">
+                        <img src="media/img/number4.svg">
+                    </div>
+                    <div class="numbertext">
+                        Полный комплекс<br>микроэлементов
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section name="companyinfo">
+        <div>
+            <img src="media/img/12.jpg" align="right" width="40%" height="100%">
+            <div class="text" style="font-size: 24px;">
+                <h1 class="b" style="font-size: 60px;">О компании PetCook</h1><br>
+                <p>
+                    Серьезный научный подход позволяет нам создавать качественное<br>
+                    питание для разных целей: помочь домашнему животному сбросить<br>
+                    лишний вес, помочь ему почувствовать себя активным в пожилом<br>
+                    возрасте или поддержать иммунитет. Приобретая питание PetCook,<br>
+                    вы можете быть уверены, что ваш питомец получает необходимое<br>
+                    количество микроэлементов, а значит он будет здоровый и бодрый.<br>
+                    <br>
+                    Здоровое пищеварение, крепкие кости и красивая, гладкая шерсть<br>
+                    — это результат тщательно подобранного сочетания ингредиентов,<br>
+                    питательных веществ. Команда PetCook уделяет большое внимание<br>
+                    исследованию микробиомы, его влияния на пищеварительную<br>
+                    систему и общее состояние питомца. Поэтому во всех кормах<br>
+                    содержатся пребиотики, которые восстанавливают и активируют<br>
+                    уникальный баланс микробима.
+                </p>
+                <button style="margin-top: 60px;">Узнать больше</button>
+            </div>
+        </div>
+    </section>
+    <section name="form">
+        <div class="formsub text">
+            <h1 style="font-size: 44px;" align="center">Доверьте выбор специалисту</h1><br>
+            <p align="center">Если вам нужна помощь в выборе корма для питомца, заполните<br>
+            форму и наш ветеринар свяжется с вами. Врач уточнит состояние<br>
+            здоровья питомца, его образ жизни и подберет правильное питание.</p>
+            <div class="form">
+                <p class="b">Ваше имя</p>
+                <input type="text" placeholder="Введите ваше имя" class="textbox"><br>
+                <p class="b">Телефон</p>
+                <input type="text" placeholder="+7 (___) ___ __ __" class="textbox"><br>
+                <p class="b">E-mail</p>
+                <input type="email" placeholder="example@mail.ru" class="textbox"><br>
+                <p class="b">Для какого животного вы хотите подобрать питание?</p>
+                <div class="radio b">
+                    <input type="radio" name="1" checked> Для собаки
+                    <input type="radio" name="1"> Для кошки
+                    <input type="radio" name="1"> Для другого питомца
+                </div>
+                <br>
+                <div class="check">
+                    <div style="display: flex;">
+                        <div>
+                            <input type="checkbox" name="2">
+                        </div>
+                        <div class="checktext">
+                            Я согласен(а) с условиями на обработку персональных<br>
+                            данных, правилами оказания онлайн-консультирования<br>
+                            и условиями договора-оферты на оказание услуг<br>
+                        </div>
+                    </div>
+                    <br>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="checkbox" name="2">
+                        </div>
+                        <div class="checktext">
+                            Хочу получить информацию от PetCook
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-left: 27%; margin-top: 30px;">
+                    <button style="padding-left: 70px; padding-right: 70px;">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>PetCook © 2021 Все права защищены</div>
+        <div>
+            <img src="media/img/facebook.svg">
+            <img src="media/img/vk.svg">
+            <img src="media/img/instagram.svg">
+        </div>
+        <div><a href="#" style="text-decoration: underline;">Политика конфиденциальности</a></div>
+    </footer>
+</body>
+</html>
